@@ -7,6 +7,8 @@ namespace libcron
     class ICronClock
     {
         public:
+            virtual ~ICronClock() {}
+
             virtual std::chrono::system_clock::time_point now() const = 0;
             virtual std::chrono::seconds utc_offset(std::chrono::system_clock::time_point now) const = 0;
     };
@@ -31,6 +33,11 @@ namespace libcron
             : public ICronClock
     {
         public:
+            ~LocalClock() override
+            {
+
+            }
+
             std::chrono::system_clock::time_point now() const override
             {
                 auto now = std::chrono::system_clock::now();
