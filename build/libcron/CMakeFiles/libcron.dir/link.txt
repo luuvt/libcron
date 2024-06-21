@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc /Users/luutran/Documents/training/c/libcron/libcron/out/liblibcron.a CMakeFiles/libcron.dir/src/CronClock.cpp.o CMakeFiles/libcron.dir/src/CronData.cpp.o CMakeFiles/libcron.dir/src/CronRandomization.cpp.o CMakeFiles/libcron.dir/src/CronSchedule.cpp.o CMakeFiles/libcron.dir/src/Task.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib /Users/luutran/Documents/training/c/libcron/libcron/out/liblibcron.a
